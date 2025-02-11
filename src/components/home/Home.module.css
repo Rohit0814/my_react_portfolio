@@ -1,0 +1,18 @@
+.slider_container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 70vh; /* Ensure consistent height */
+}
+
+.banner_section {
+    display: flex;
+    width: 300%; /* Adjust based on number of images */
+    transition: transform 0.5s ease-in-out;
+}
+
+.banner_img {
+    width: 100vw; /* Make each image take full viewport width */
+    height: 70vh;
+    object-fit: cover;
+}
