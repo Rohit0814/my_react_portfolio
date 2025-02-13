@@ -5,7 +5,7 @@ import { MenuTab } from "./MenuTab";
 const Navbar = () => {
   return (
   <>
-    <nav className="bg-gray-700">
+    <nav className="bg-gray-700 fixed z-10 w-full top-0">
       <div className="flex items-center mx-20 py-5 justify-between">
       <div className="flex items-center">
         <img src={logo1} className="w-16"/>
